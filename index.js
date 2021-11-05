@@ -3,6 +3,8 @@ const fs = require('fs');
 const Instagram = require('instagram-web-api');
 
 async function isPlaybackPlaying() {
+    let data = JSON.parse(fs.readFileSync("data.json").toString());
+
     const res = await axios.get("https://api.spotify.com/v1/me/player/", {
         headers: {
             "Authorization": `Bearer ${data.token}`
