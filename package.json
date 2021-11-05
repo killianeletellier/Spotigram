@@ -1,0 +1,16 @@
+{
+  "name": "spotigram",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "LProgead <lprogead@mailo.com>",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "instagram-web-api": "^2.2.2"
+  }
+}
